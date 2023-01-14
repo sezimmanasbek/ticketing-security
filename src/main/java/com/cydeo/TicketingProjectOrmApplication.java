@@ -10,19 +10,19 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 @SpringBootApplication
 public class TicketingProjectOrmApplication {
 
-	public static void main(String[] args) {
-
-		SpringApplication.run(TicketingProjectOrmApplication.class, args);
-	}
-
-	@Bean
-	public ModelMapper mapper(){
-		return new ModelMapper();
-	}
-
-	@Bean
-	public PasswordEncoder passwordEncoder(){
-		return new BCryptPasswordEncoder();
-	}
+//	public static void main(String[] args) {
+//
+//		SpringApplication.run(TicketingProjectOrmApplication.class, args);
+//	}
+//
+//	@Bean
+//	public ModelMapper mapper(){
+//		return new ModelMapper();
+//	}
+//
+//	@Bean
+//	public PasswordEncoder passwordEncoder(){
+//		return new BCryptPasswordEncoder();
+//	}
 
 }
